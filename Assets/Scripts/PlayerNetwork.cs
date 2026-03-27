@@ -24,9 +24,9 @@ public class PlayerNetwork : NetworkBehaviour
         if (IsServer)
         {
             if (OwnerClientId == 0)
-                transform.position = new Vector3(-4, 2, 0); // Host слева
+                transform.position = new Vector3(-3, 1, 0); // Host слева
             else
-                transform.position = new Vector3(4, 2, 0);  // Client справа
+                transform.position = new Vector3(3, 1, 0);  // Client справа
         }
 
         if (IsOwner)

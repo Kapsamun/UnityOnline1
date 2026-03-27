@@ -34,6 +34,6 @@ public class PlayerView : NetworkBehaviour
 
     private void OnHpChanged(int oldValue, int newValue)
     {
-        _hpText.text = $"HP: {newValue}";
+        _hpText.text = $"{newValue} HP";
     }
 }

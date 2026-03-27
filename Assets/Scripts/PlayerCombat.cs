@@ -8,7 +8,7 @@ public class PlayerCombat : NetworkBehaviour
 
     private void Update()
     {
-        if (IsOwner && Input.GetKeyDown(KeyCode.E))
+        if (IsOwner && Input.GetKeyDown(KeyCode.Space))
             TryAttack();
     }
 
